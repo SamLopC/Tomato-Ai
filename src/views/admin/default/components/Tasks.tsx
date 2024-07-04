@@ -35,39 +35,40 @@ export default function Conversion(props: { [x: string]: any }) {
 				<Flex w='100%' mb='20px'>
 					<Checkbox me='16px' colorScheme='brandScheme' />
 					<Text fontWeight='bold' color={textColor} fontSize='md' textAlign='start'>
-						Landing Page Design
+						Crop Catalog Management
 					</Text>
 					<Icon ms='auto' as={MdDragIndicator} color='secondaryGray.600' w='24px' h='24px' />
 				</Flex>
 				<Flex w='100%' mb='20px'>
 					<Checkbox me='16px' defaultChecked colorScheme='brandScheme' />
 					<Text fontWeight='bold' color={textColor} fontSize='md' textAlign='start'>
-						Dashboard Builder
+						Order & Shipping Tracking
 					</Text>
 					<Icon ms='auto' as={MdDragIndicator} color='secondaryGray.600' w='24px' h='24px' />
 				</Flex>
 				<Flex w='100%' mb='20px'>
 					<Checkbox defaultChecked me='16px' colorScheme='brandScheme' />
 					<Text fontWeight='bold' color={textColor} fontSize='md' textAlign='start'>
-						Mobile App Design
+						Market Pricing Insights
 					</Text>
 					<Icon ms='auto' as={MdDragIndicator} color='secondaryGray.600' w='24px' h='24px' />
 				</Flex>
 				<Flex w='100%' mb='20px'>
 					<Checkbox me='16px' colorScheme='brandScheme' />
 					<Text fontWeight='bold' color={textColor} fontSize='md' textAlign='start'>
-						Illustrations
+						Regulatory Compliance Help
 					</Text>
 					<Icon ms='auto' as={MdDragIndicator} color='secondaryGray.600' w='24px' h='24px' />
 				</Flex>
 				<Flex w='100%' mb='20px'>
 					<Checkbox defaultChecked me='16px' colorScheme='brandScheme' />
 					<Text fontWeight='bold' color={textColor} fontSize='md' textAlign='start'>
-						Promotional LP
+						Community & Support Network
 					</Text>
 					<Icon ms='auto' as={MdDragIndicator} color='secondaryGray.600' w='24px' h='24px' />
 				</Flex>
 			</Box>
+
 		</Card>
 	);
 }

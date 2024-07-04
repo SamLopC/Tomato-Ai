@@ -20,8 +20,8 @@ export default function DataTables() {
         spacing={{ base: '20px', xl: '20px' }}
       >
         <DevelopmentTable tableData={tableDataDevelopment} />
-        <CheckTable tableData={tableDataCheck} />
-        <ColumnsTable tableData={tableDataColumns} />
+        {/* <CheckTable tableData={tableDataCheck} /> */}
+        {/* <ColumnsTable tableData={tableDataColumns} /> */}
         <ComplexTable tableData={tableDataComplex} />
       </SimpleGrid>
     </Box>

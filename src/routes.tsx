@@ -46,7 +46,7 @@ const routes: IRoute[] = [
     secondary: true,
   },
   {
-    name: 'Data Tables',
+    name: 'Metrics',
     layout: '/admin',
     icon: <Icon as={MdBarChart} width="20px" height="20px" color="inherit" />,
     path: '/data-tables',
